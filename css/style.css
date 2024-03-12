@@ -666,7 +666,7 @@ position: absolute;
 .sub-f-grid-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 3%;
+    padding: 5%;
 }
 
 .social-icons{
