@@ -21,7 +21,7 @@
 
 .search-box{
     border-radius: 150px;
-    width: 120%;;
+    width: 80%;;
 }
 
 /* .nav-item-1{
@@ -244,6 +244,13 @@
     font-weight: bold;
 }
 
+.special-previous-amount-discount{
+    font-size: 11px;
+    color: red;
+    font-weight: bolder;
+    background-color: rgba(255, 204, 204, 0.5);
+}
+
 .special-previous-amount{
     color: grey;
     font-size: 12px;
@@ -362,37 +369,33 @@
 }
 
 .red-tag{
-    /* position: absolute;
-    bottom: 0;
-    left: 150px; */
 position: absolute;
-    height: 92px;
+height: 92px;
   background-size: 100%;
   background-repeat: no-repeat;
-  
   display: flex;
   flex-direction: column;
   color: #fff;
   font-weight: 700;
-  bottom: 20px;
+  bottom: -20px;
   justify-content: center;
-  left: 60px;
+  left: 110px;
   align-items: center;
   z-index: 1;
 }
 
 
 .red-tag-image{
-    width: 80px;
+    width: 100px;
 }
 
 .red-tag span{
     position: relative;
-    bottom: 48px;
-    left: -5px;
+    bottom: 70px;
+    right: 10px;
     color: white;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .middle-special-2nd{
@@ -516,6 +519,10 @@ position: absolute;
 
 .love-item{
     position: relative;
+}
+
+.love-item-title{
+    font-size: 10px;
 }
 
 .cart-container-love-item{
@@ -919,12 +926,49 @@ position: absolute;
         height: 48px;
     }
 
-    .search-box{
+     .search-box{
         border-radius: 150px;
-        width: 120%;
+        width: 60%;
         margin-left: -20px;
-    }
 
+
+    } 
+    
+    .search-bar-new button img{
+    width: 25px;
+    height: 25px;
+    background: black;
+    cursor: pointer;
+    border-radius: 60px;
+    padding: 6px;
+}
+
+.search-bar-new button{
+    border: 0;
+    border-radius: 50%;
+}
+
+.search-bar-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    height: 2em;
+}
+
+.search-bar-new input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    color: #cac7ff;
+    background: transparent;
+    font-size: 20px;
+}
+
+    
     .sub-nav-links{
         color: white;
         text-decoration: none;
@@ -952,7 +996,7 @@ position: absolute;
     
     .category-text{
         color: white;
-        font-size: 13px;
+        font-size: 10px;
     }
     
     .category-list{
