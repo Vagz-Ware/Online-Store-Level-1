@@ -124,6 +124,7 @@
 .main{
     margin-left: 6%;
     margin-right: 6%;
+    position: relative;
 }
 
 .sub-nav-links{
@@ -349,7 +350,7 @@
 
 .middle-special-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;   
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
     padding: 5px;
     background-color: white;
     border-radius: 10%;
@@ -362,7 +363,7 @@
 }
 
 .middle-special-main{
-    grid-area: 2/1/3/4;
+    grid-area: 2/1/4/4;
     margin-bottom: 16px;
     background-color: white;
     position: relative;
@@ -399,12 +400,13 @@ height: 92px;
 }
 
 .middle-special-2nd{
-    grid-area: 3/1/3/2;
+    grid-area: 4/1/4/2;
     background-color: white;
+    padding: 5px;
 }
 
 .middle-special-3rd{
-    grid-area: 3/2/3/4;
+    grid-area: 4/3/4/4;
     background-color: white;
 }
 
@@ -423,9 +425,10 @@ height: 92px;
 }
 
 .bShoe{
-    width: 80px;
-    height: 80px;
+    width: 88px;
+    height: 100px;
     border-radius: 10%;
+    border: 1px solid whitesmoke;
 }
 
 .special-right{
