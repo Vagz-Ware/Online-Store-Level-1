@@ -481,7 +481,7 @@ height: 92px;
 }
 
 .more-to-love{
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .more-to-love-currency{
@@ -1104,672 +1104,283 @@ height: 92px;
 }
 
 
-/* Responsive media queries */
-/* screen 374px */
-/* @media (max-width: 400px) {
-
-    body {
-        background-color: blue;
-    }
-
-    .love-item-pic{
-        height: 70px;
-        width: 70px; 
-        border-radius: 40px;
-    }
-
-    .love-grid{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding-top: 25px;
-        gap: 3rem;
-    }
-
-    .sliding-pic{
-        height: 160px;
-        width: 90%;
-        border-radius: 50px;
-        margin-left: 5%;
-        
-    }
-
-    .quarterShoe{
-        margin-left: 15px;
-        width: 80%;
-        height: 110px;
-        border-radius: 10%;
-    }
-
-    .red-tag span{
-        position: relative;
-        bottom: 50px;
-        left: 25px;
-        color: white;
-        font-weight: bolder;
-        font-size: 2rem;
-    }
-
-    .coatGirl{
-    
-        width: 100%;
-        height: 50px;
-        border-radius: 10%;
-    }
-    
-    .bShoe{
-        width: 100%;
-        height: 50px;
-        border-radius: 10%;
-    }
-
-    .phones{
-        height: 60px;
-        border-radius: 10%;
-        margin-left: 12%;
-    }
-
-    
-    .special-currency{
-        color: red;
-        font-size: 9px;
-        font-weight: bold;
-    }
-    
-    .price{
-        margin-left: 20px;
-    }
-    
-    .special-amount{
-        color: red;
-        font-weight: bold;
-        font-size: 9px;
-    }
-    
-    .special-previous-amount{
-        color: grey;
-        font-size: 9px;
-        text-decoration: line-through;
-    }
-
-    .sub-nav-links{
-        color: white;
-        text-decoration: none;
-        font-weight: normal;
-        font-size: 9px;
-        padding: 0 10px 0 10px;
-        margin-bottom: 8px;
-    }
-
-    .categories{
-        border: 1px solid white;
-        padding-top: 20px;
-        text-align: center;
-        border-radius: 200px;
-    }
-} */
-
-
-
-
-/* screen 540px */
-/* @media (max-width: 540px) {
-
-    body {
-        background-color: burlywood;
-    }
-
-    .love-item-pic{
-         height: 70px;
-        width: 70px; 
-        border-radius: 40px;
-    }
-
-    .love-grid{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding-top: 25px;
-        gap: 20px;
-    }
-
-    .sliding-pic{
-        height: 160px;
-        width: 90%;
-        border-radius: 50px;
-        margin-left: 5%;
-        
-    }
-
-    .quarterShoe{
-        margin-left: 15px;
-        width: 80%;
-        height: 110px;
-        border-radius: 10%;
-    }
-
-    .red-tag span{
-        position: relative;
-        bottom: 50px;
-        left: 25px;
-        color: white;
-        font-weight: bolder;
-        font-size: 2rem;
-    }
-
-    .coatGirl{
-    
-        width: 100%;
-        height: 50px;
-        border-radius: 10%;
-    }
-    
-    .bShoe{
-        width: 100%;
-        height: 50px;
-        border-radius: 10%;
-    }
-
-    .phones{
-        height: 60px;
-        border-radius: 10%;
-        margin-left: 12%;
-    }
-
-    
-    .special-currency{
-        color: red;
-        font-size: 9px;
-        font-weight: bold;
-    }
-    
-    .price{
-        margin-left: 20px;
-    }
-    
-    .special-amount{
-        color: red;
-        font-weight: bold;
-        font-size: 9px;
-    }
-    
-    .special-previous-amount{
-        color: grey;
-        font-size: 9px;
-        text-decoration: line-through;
-    }
-
-    .sub-nav-links{
-        color: white;
-        text-decoration: none;
-        font-weight: normal;
-        font-size: 9px;
-        padding: 0 10px 0 10px;
-        margin-bottom: 8px;
-    }
-
-    .categories{
-        border: 1px solid white;
-        padding-top: 20px;
-        text-align: center;
-        border-radius: 200px;
-    }
-} */
-
-/* screen 680px */
-
-/* @media only screen and (max-width: 600px) {
-    .love-item-pic{
-        height: 70px;
-        width: 70px;
-        border-radius: 40px;
-    }
-
-    .love-grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-top: 25px;
-        gap: 20px;
-    }
-
-    .red-tag span{
-        position: relative;
-        bottom: 50px;
-        left: 25px;
-        color: white;
-        font-weight: bolder;
-        font-size: 1rem;
-    }
-    
-} */
-
-/* screen 600px */
-/* @media (max-width: 600px) {
-
-    body {
-        background-color: yellowgreen;
-    }
-
-    .love-item-pic{
-         height: 70px;
-        width: 70px; 
-        border-radius: 40px;
-    }
-
-    .love-grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-top: 25px;
-        gap: 20px;
-    }
-
-    .sliding-pic{
-        height: 180px;
-        width: 90%;
-        border-radius: 50px;
-        margin-left: 5%;
-        
-    }
-
-    .quarterShoe{
-        margin-left: 15px;
-        width: 80%;
-        height: 160px;
-        border-radius: 10%;
-    }
-
-    .red-tag span{
-        position: relative;
-        bottom: 0px;
-        left: -60px;
-        color: white;
-        font-weight: bolder;
-        font-size: 1rem;
-    }
-    
-
-    .coatGirl{
-    
-        width: 100%;
-        height: 130px;
-        border-radius: 10%;
-    }
-    
-    .bShoe{
-        width: 50%;
-        height: 130px;
-        border-radius: 10%;
-        
-        margin-left: 50px;
-    }
-
-    .phones{
-        height: 80px;
-        border-radius: 10%;
-        margin-left: 12%;
-    }
-
-    .special-currency{
-        color: red;
-        font-size: 9.5px;
-        font-weight: bold;
-    }
-    
-    .price{
-        margin-left: 20px;
-    }
-    
-    .special-amount{
-        color: red;
-        font-weight: bold;
-        font-size: 9.5px;
-    }
-    
-    .special-previous-amount{
-        color: grey;
-        font-size: 9.5px;
-        text-decoration: line-through;
-    }
-
-    .main-footer h3{
-        font-size: medium;
-    }
-
-    .main-footer li{
-        font-size: small;
-    }
-
-    .logo-img {
-        width: 160px;
-        height: 48px;
-    }
-
-    .search-box{
-        border-radius: 150px;
-        width: 120%;
-        margin-left: -20px;
-    }
-
-    .sub-nav-links{
-        color: white;
-        text-decoration: none;
-        font-weight: normal;
-        font-size: 11px;
-        padding: 0 10px 0 10px;
-        margin-bottom: 8px;
-    }
-
-    .categories{
-        border: 1px solid white;
-        padding-top: 10px;
-        text-align: center;
-        border-radius: 200px;
-    }
-    
-    .categories-drop{
-        background-color: crimson;
-    }
-    
-    .category-drop{
-        display: grid;
-        grid-template-columns: 10% 80% 10% ;
-    }
-    
-    .category-text{
-        color: white;
-        font-size: 13px;
-    }
-    
-    .category-list{
-        list-style: none;
-    }
-
-    .better-choice{
-        font-size: small;
-    }
-
-    .mini-head{
-        background-color: white;
-        display: grid; 
-        grid-template-columns: 25% 11% 11% 11% 11% 11% 11% ;
-        margin-top: 20px;
-        gap: 15px;
-    }
-
-    .special{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 250px;
-        background-color: white;
-        gap: 20px;
-    }
-
-    .special-right{
-        display: grid;
-        border-radius: 30px;
-        grid-area: 3/1/4/2;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: whitesmoke;
-        margin: 0;
-        
-         height: 350px; 
-        padding: 3%;
-        padding-left: 7%;
-    }
-
-    .weekly{
-        padding: 3%;
-        padding-left: 7%;
-        display: grid;
-        border-radius: 30px;
-        grid-area: 3/ 2/ 4/ 4;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 75px;
-        background-color: whitesmoke;
-    }
-
-    .sliding-special{
-        padding: 2%;
-        background-color: peachpuff;
-        border-radius: 30px;
-        margin-top: -85px;
-        grid-area: 2/ 1/ 3/ 2;
-    }
-
-    .middle-special-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;   
-        padding: 5px;
-        background-color: white;
-        border-radius: 10%;
-    }
-
-    .middle-special-3rd{
-        grid-area: 3/2/3/4;
-        background-color: white;
-    }
-} */
-
-
-/* screen 900px */
-/*@media (max-width: 900px) {
-
-    /body {
-        background-color: rebeccapurple;
-    }
-
-    .love-item-pic{
-        /* height: 170px;
-        width: 170px; 
-        border-radius: 40px;
-    }
-
-    .love-grid{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding-top: 25px;
-        gap: 20px;
-    }
-
-    .sliding-pic{
-        height: 180px;
-        width: 90%;
-        border-radius: 50px;
-        margin-left: 5%;
-        
-    }
-
-    .quarterShoe{
-        margin-left: 15px;
-        width: 80%;
-        height: 160px;
-        border-radius: 10%;
-    }
-
-    .red-tag span{
-        position: relative;
-        bottom: 0px;
-        left: -60px;
-        color: white;
-        font-weight: bolder;
-        font-size: 1rem;
-    }
-    
-
-    .coatGirl{
-    
-        width: 100%;
-        height: 130px;
-        border-radius: 10%;
-    }
-    
-    .bShoe{
-        width: 50%;
-        height: 130px;
-        border-radius: 10%;
-        
-        margin-left: 50px;
-    }
-
-    .phones{
-        height: 80px;
-        border-radius: 10%;
-        margin-left: 12%;
-    }
-
-    .special-currency{
-        color: red;
-        font-size: 9.5px;
-        font-weight: bold;
-    }
-    
-    .price{
-        margin-left: 20px;
-    }
-    
-    .special-amount{
-        color: red;
-        font-weight: bold;
-        font-size: 9.5px;
-    }
-    
-    .special-previous-amount{
-        color: grey;
-        font-size: 9.5px;
-        text-decoration: line-through;
-    }
-
-    .main-footer h3{
-        font-size: medium;
-    }
-
-    .main-footer li{
-        font-size: small;
-    }
-
-    .logo-img {
-        width: 160px;
-        height: 48px;
-    }
-
-    .search-box{
-        border-radius: 150px;
-        width: 120%;
-        margin-left: -20px;
-    }
-
-    .sub-nav-links{
-        color: white;
-        text-decoration: none;
-        font-weight: normal;
-        font-size: 11px;
-        padding: 0 10px 0 10px;
-        margin-bottom: 8px;
-    }
-
-    .categories{
-        border: 1px solid white;
-        padding-top: 10px;
-        text-align: center;
-        border-radius: 200px;
-    }
-    
-    .categories-drop{
-        background-color: crimson;
-    }
-    
-    .category-drop{
-        display: grid;
-        grid-template-columns: 10% 80% 10% ;
-    }
-    
-    .category-text{
-        color: white;
-        font-size: 13px;
-    }
-    
-    .category-list{
-        list-style: none;
-    }
-
-    .better-choice{
-        font-size: small;
-    }
-
-    .mini-head{
-        background-color: white;
-        display: grid; 
-        grid-template-columns: 25% 11% 11% 11% 11% 11% 11% ;
-        margin-top: 20px;
-        gap: 15px;
-    }
-
-    .special{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 250px;
-        background-color: white;
-        gap: 20px;
-    }
-
-    .special-right{
-        display: grid;
-        border-radius: 30px;
-        grid-area: 3/1/4/2;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: whitesmoke;
-        margin: 0;
-        
-         height: 350px; 
-        padding: 3%;
-        padding-left: 7%;
-    }
-
-    .weekly{
-        padding: 3%;
-        padding-left: 7%;
-        display: grid;
-        border-radius: 30px;
-        grid-area: 3/ 2/ 4/ 4;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 75px;
-        background-color: whitesmoke;
-    }
-
-    .sliding-special{
-        padding: 2%;
-        background-color: peachpuff;
-        border-radius: 30px;
-        margin-top: -85px;
-        grid-area: 2/ 1/ 3/ 2;
-    }
-
-    .middle-special-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;   
-        padding: 5px;
-        background-color: white;
-        border-radius: 10%;
-    }
-
-    .middle-special-3rd{
-        grid-area: 3/2/3/4;
-        background-color: white;
-    }
-} */
-
-/* screen 1020px */
-/* @media (max-width: 1024px) {
+/* General styling for all the category pages */
+
+.specific-love-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 25px;
+    gap: 70px;
+    position: relative;
+}
+
+.fixed-filter-on-left{
+    display: grid;
+    grid-area: 1 / 1/ 4/ 1;
+    border-right: solid 5px silver;
+}
+
+.delivery-options{
+    border-bottom: silver 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.shipping-from{
+    border-bottom: silver 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.deals{
+    border-bottom: silver 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.brands{
+     border-bottom: silver 1px solid;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.left-filter-price{
+    padding: 10px;
+    border-bottom: silver 1px solid;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.left-filter-reviews{
+    border-bottom: silver 1px solid;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.stars-in-review{
+    margin-left: 20px;
+}
+
+.set-price{
+    border: 1px solid red;
+    width: 50px;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.price-container{
+    display: flex;
+   justify-content: space-between;
+}
+
+.price-left-ok{
+    border-radius: 20%;
+    margin-top: 6px;
+    color: white;
+    background-color: black;
 
 }
 
-.badge:after{
-    content:attr(value);
-    font-size:12px;
-    color: white;
-    background: black;
-    border-radius:50%;
-    padding: 0 5px;
-    position:relative;
-    left:-8px;
-    top:-10px;
-    opacity:0.9;
-} */
+.fixed-filter-header{
+    font-weight: bold;
+    text-align: center;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+}  
+
+.psuedo-change {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+.checkmarky {
+    position: absolute;
+    border: 1px solid #979797;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 4px;
+}  
+
+.fixed-filter-on-left label {
+    margin-left: 25px;
+}
+
+.container-with-no-margin{
+    margin-left: -15px;
+}
+
+.main-display{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3%;
+    border-bottom: 1px solid silver;
+}
+
+.display-picture img{
+    max-width: 500px;
+    margin-top: 12%;
+}
+
+.display-price-size{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.display-price-and-info{
+    padding-left: 2%;
+    border-bottom: solid black 1px;
+}
+
+.coupon-and-discount{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding: 2%;
+}
+
+.different-colour-versions{
+}
+
+.different-sizes{
+    border-bottom: silver solid 1px;
+}
+
+.coloured-price-on-display{
+    font-weight: bold;
+    color: red;
+}
+
+.big-price-on-display{
+    font-size: 3rem;
+}
+
+.mini-big-price{
+    margin-left: -6px;
+}
+
+.scratched-display-price{
+    color: black;
+    text-decoration: line-through;
+}
+
+.subtracted-discount{
+    font-weight: lighter;
+    margin-left: 2%;
+}
+
+.end-of-the-discount{
+    font-weight: lighter;
+    margin-left: 100px;
+    font-size: small;
+}
+
+.product-description{
+    font-weight: bold;
+}
+
+.coupon-discount-container-grey{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.price-coupon{
+    background-color: whitesmoke;
+    padding: 2%;
+    width: 190px;
+    height: 50px;
+}
+
+.price-coupon-currency{
+    color: red;
+    font-weight: bold;
+}
+
+.condition-of-coupon{
+    color: red;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+.percentage-of-discount{
+    background-color: whitesmoke;
+    padding: 2%;
+    width: 190px;
+    height: 50px;
+    margin-left: -60px;
+}
+
+.coupoun-discount-title{
+    font-weight: bold;
+}
+
+.different-color-version-of-product{
+    height: 50px;
+    margin-left: 1%;
+}
+
+.container-of-different-coloured-shoes{
+    padding: 1%;
+    margin-top: -10px;
+}
+
+.different-colour-versions{
+    padding: 2%;
+}
+
+.different-color-of-product{
+    font-weight: bold;
+}
+
+.size-title{
+    font-weight: bold;
+}
+
+.list-of-sizes{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-left: 1%;
+    gap: 1%;
+}
+
+.size-category{
+    border: 1px solid black;
+    text-align: center;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.related-items{
+    margin-top: 3%;
+    border-bottom: 1px solid silver;
+}
+
+.related-items-title{
+    font-weight: bold;
+}
+
+.description-section{
+    border-bottom: 1px solid silver;
+    padding: 3% 0 3% 0;
+}
+
+.specification-section{
+    border-bottom: 1px solid silver;
+    padding: 3% 0 3% 0;
+}
+
+.Customer-reviews-section{
+    border-bottom: 1px solid silver;
+    padding: 3% 0 3% 0;
+}
+
+.buyer-questions-and-answers{
+    border-bottom: 1px solid silver;
+    padding: 3% 0 3% 0;
+    margin-bottom: 3%;
+}
