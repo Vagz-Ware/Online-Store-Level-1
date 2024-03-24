@@ -1123,38 +1123,35 @@ height: 92px;
 .delivery-options{
     border-bottom: silver 1px solid;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .shipping-from{
     border-bottom: silver 1px solid;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .deals{
     border-bottom: silver 1px solid;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .brands{
      border-bottom: silver 1px solid;
      padding-top: 20px;
-     padding-bottom: 20px;
+     
 }
 
 .left-filter-price{
     padding: 10px;
     border-bottom: silver 1px solid;
      padding-top: 20px;
-     padding-bottom: 20px;
+     
 }
 
 .left-filter-reviews{
     border-bottom: silver 1px solid;
      padding-top: 20px;
-     padding-bottom: 20px;
+     
 }
 
 .stars-in-review{
@@ -1224,8 +1221,12 @@ height: 92px;
 }
 
 .display-picture img{
-    max-width: 500px;
-    margin-top: 12%;
+    width: 450px;
+    max-height: 450px;
+    margin-top: 3%;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin-bottom: 1%;
 }
 
 .display-price-size{
