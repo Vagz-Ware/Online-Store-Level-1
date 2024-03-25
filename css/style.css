@@ -96,15 +96,12 @@
     color: transparent;
 }
 
-.dropdown-menu{
-    background: red;
-}
 
 .dropdown-menu li{
     width: 400px;
     text-align: center;
     margin-bottom: 1px;   
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     border-radius: 3rem;
 }
 
@@ -1200,22 +1197,22 @@ height: 92px;
     opacity: 1; /* Firefox */
 }  
 
-.psuedo-change {
+/* .psuedo-change {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
-  }
+  } */
 
-.checkmarky {
+/* .checkmarky {
     position: absolute;
     border: 1px solid #979797;
     height: 20px;
     width: 20px;
     background-color: white;
     border-radius: 4px;
-}  
+}   */
 
 .fixed-filter-on-left label {
     margin-left: 25px;
