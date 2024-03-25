@@ -96,6 +96,18 @@
     color: transparent;
 }
 
+.dropdown-menu{
+    background: red;
+}
+
+.dropdown-menu li{
+    width: 400px;
+    text-align: center;
+    margin-bottom: 1px;   
+    border: 1px solid black;
+    border-radius: 3rem;
+}
+
 .categories{
     border: 1px solid white;
     padding-top: 3px;
@@ -1224,7 +1236,7 @@ height: 92px;
     width: 450px;
     max-height: 450px;
     margin-top: 3%;
-    border-radius: 10px;
+    border-radius: 2rem;
     border: 2px solid whitesmoke;
     margin-bottom: 1%;
 }
@@ -1321,8 +1333,10 @@ height: 92px;
 }
 
 .different-color-version-of-product{
-    height: 50px;
-    margin-left: 1%;
+    height: 170px;
+    margin-left: 2%;
+    border-radius: 2rem;
+    border: whitesmoke solid 2px;
 }
 
 .container-of-different-coloured-shoes{
@@ -1385,3 +1399,88 @@ height: 92px;
     padding: 3% 0 3% 0;
     margin-bottom: 3%;
 }
+
+/* Slideshow gallery for products */
+
+/* Position the image container (needed to position the left and right arrows) */
+.slide-container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .slide-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .slide-column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
